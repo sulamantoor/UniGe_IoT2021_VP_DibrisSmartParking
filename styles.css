@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: #DC2626;
+    padding:5px;
+}
+
+.navbar > img{
+    height: 100px;
+}
+
+.navbar > div{
+    text-align: center;
+}
+
+.slots{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.slots__info{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 1.4rem;
+}
+
+.slots__green{
+    background: #1DB159;
+    height: 0.9rem;
+    width: 0.9rem;
+}
+.slots__red{
+    background: #bb2846;
+    height: 0.9rem;
+    width: 0.9rem;
+}
+
+.slots__booking{
+    display: flex;
+    flex-flow: column;
+    align-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.slots__booking > div{
+    display: flex;
+    /* align-content: center; */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slots__LPN4{
+    margin-bottom: 60px;
+}
